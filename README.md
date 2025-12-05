@@ -1,9 +1,9 @@
-#include <iostream> // Inclui a biblioteca para entrada e saída
+echo '#include <stdio.h>
 
 int main() {
-    std::cout << "Olá, Mundo!" << std::endl; // Imprime a mensagem no console
-    return 0; // Indica que o programa foi executado com sucesso
-}
+    printf("Hello World!\\n");
+    return 0;
+}' > hello.c
 
 
 # hello-world
